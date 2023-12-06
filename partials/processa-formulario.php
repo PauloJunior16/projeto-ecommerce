@@ -8,10 +8,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     $horario_preferido = $_POST["horario"];
     $receber_novidades = isset($_POST["novidades"]) ? 1 : 0;
 
-    $servername = "localhost";
-    $username = "laravel";
-    $password = "laravelPassword";
-    $dbname = "barbearia_database";
+    $servername = "ebh2y8tqym512wqs.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+    $username = "rqvbhshr65xnqgly";
+    $password = "txda5j4hzjfjlml4";
+    $dbname = "ucpsr65c4noadoy8";
 
     if(empty($nome) || empty($email) || empty($telefone)) {
         echo "Nome, email e telefone são campos obrigatórios.";
